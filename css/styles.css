@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+.contenedor {
+    background-color: #212529;;
+    margin: 20px;
+    display: flex;
+    justify-content: right;    
+}
+.contenedorBoton {
+    margin: 10px;
+    color: #212529;
+}
+.btn {
+ background-color: #212529;
+ border: 1px solid #E5F876;
+ color: #E5F876;
+ border-radius: 4px;
+ font-size: .8em;
+ padding: 12px 18px;
+}
+
+.btn:hover {
+    background-color: #E5F876;
+    border: 1px solid #212529;
+    color: #212529;
+}
