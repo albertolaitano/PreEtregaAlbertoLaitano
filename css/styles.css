@@ -1,16 +1,19 @@
 body {
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor {
     background-color: #212529;;
     margin: 20px;
-    display: flex;
-    justify-content: right;    
+    display: flex; 
+    justify-content: space-between;   
 }
 .contenedorBoton {
     margin: 10px;
     color: #212529;
+    display: flex;
+    justify-content: end;
 }
 .btn {
  background-color: #212529;
@@ -19,10 +22,16 @@ body {
  border-radius: 4px;
  font-size: .8em;
  padding: 12px 18px;
+ margin: 10px;
 }
 
 .btn:hover {
     background-color: #E5F876;
     border: 1px solid #212529;
     color: #212529;
+}
+
+.contenedorTitulo h1 {
+    margin: 20px;
+    color: #E5F876;
 }

@@ -16,7 +16,6 @@ if ((nombreUsuario === "") || (apellidoUsuario === "")) {
 })
 
 const botonCalcularCarrito = document.getElementById("botonCalcularCarrito");
-
 botonCalcularCarrito.addEventListener("click", function() {
 let cantidadArticulos = parseInt(prompt("Ingrese cuántos artículos tiene el carrito:"));
 let valorArticulo = 0;
