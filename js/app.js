@@ -4,6 +4,10 @@ botonIngresar.addEventListener("click", function(){
 nombreUsuario = prompt("Cual es tu nombre?"); //declaro variable scope global
 let apellidoUsuario = prompt("Cual es tu apellido?");
 
+function saludar() {
+    alert("Bienvenido " + nombreUsuario + " " + apellidoUsuario);
+} 
+
 if ((nombreUsuario === "") || (apellidoUsuario === "")) {
    alert("Por favor, complete ambos campos de nombre y apellido.");
 } else if (/\d/.test(nombreUsuario) || /\d/.test(apellidoUsuario)) {
@@ -11,7 +15,7 @@ if ((nombreUsuario === "") || (apellidoUsuario === "")) {
 } else if (nombreUsuario.length < 2 || nombreUsuario.length > 30 || apellidoUsuario.length < 2 || apellidoUsuario.length > 30) {
     alert("El nombre y el apellido deben tener entre 2 y 30 caracteres.");
 } else {
-    alert("Bienvenido " + nombreUsuario + " " + apellidoUsuario);
+    saludar();
 }
 })
 
